@@ -1,0 +1,19 @@
+
+Thread.sleep(delay);
+}
+}
+public static boolean isNumeric(String s)
+{
+try
+{
+double d = Double.parseDouble(s);
+}
+catch(NumberFormatException nfe)
+{
+return false;
+}
+return true;
+}
+}
+
+"C:\Program Files\Java\jdk1.8.0_20\bin\java.exe" -classpath c:\temp MoveMouse 60000
